@@ -1,0 +1,54 @@
+.heading {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.movielist-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.movielist-wrapper .movielist-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.movielist-wrapper .movielist-container .img-container img{
+  border-radius: 10px;
+}
+
+.movielist-wrapper .movielist-container .img-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.movielist-wrapper .movielist-container a {
+    text-decoration: none;
+}
+
+.movielist-wrapper .movielist-container .view-more-btn {
+    margin-top: 5px;
+    padding: 9px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    width: max-content;
+    text-decoration: none;
+}
+
+.favourites-overlay {
+  border: 1px solid #333;
+  border-radius: 5px;
+}

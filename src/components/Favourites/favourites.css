@@ -1,0 +1,16 @@
+.add-to-favourites-container {
+    background: #fff;
+    border-radius: 5px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.add-to-favourites-container:hover {
+    cursor: pointer;
+}
