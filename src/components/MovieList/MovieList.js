@@ -15,7 +15,7 @@ const MovieList = (props) => {
           const movieFavourites = JSON.parse(
             localStorage.getItem("favourite-movies")
           );
-          const isPresent = movieFavourites.some((obj) => {
+          const isPresent = movieFavourites?.some((obj) => {
             // Compare the objects based on your criteria
             return obj.id === movie.id;
           });

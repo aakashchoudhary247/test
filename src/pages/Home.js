@@ -53,7 +53,7 @@ const Home = () => {
   };
 
   const addFavouriteMovie = (movie) => {
-    const isPresent = favouriteMovies.some((obj) => {
+    const isPresent = favouriteMovies?.some((obj) => {
       // Compare the objects based on your criteria
       return obj.id === movie.id;
     });
